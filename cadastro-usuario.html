@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro de Usuário</h1>
+    <hr>
+        <!--Container -->
+        <form name = "form_cadastro_usuario" action = "salvar-usuario.html" method = "post">
+                <label for="nome">Nome: </label>
+                <input id ="nome" name = "nome">
+                <label for="sobrenome">Sobrenome: </label>
+                <input id = "sobrenome" name = "sobrenome"><br><br>
+                <label for="email">E-mail: </label>
+                <input id = "email" name = "email"><br><br>
+
+                <h2>Informações de Usuário</h2>
+                <hr>
+                <label for="nome-de-usuario">Nome de usuário: </label>
+                <input id = "nome-de-usuario" name = "nome-de-usuario" placeholder = "Digite o seu nome de usuário"><br>
+                <label for="senha">Senha: </label>
+                <input id = "senha" name = "senha" type = "password" placeholder = "Digite sua senha">
+                <label for="confirmação-senha">Confimação de Senha: </label>
+                <input id = "confirmação-senha" name = "confirmação-senha" type = "password" placeholder = "Confirme sua senha"><br>
+                <label for="Dica-senha">Dica de Senha: </label>
+                <input id = "Dica-senha" name = "Dica-senha" placeholder = "Dica para sua senha"><br>
+
+                <h2>Redes Sociais</h2>
+                <hr>
+                <img src = "linkedin.png"><label>LinkedIn: </label>
+                <input id = "LinkedIn" name = "LinkedIn" placeholder = "Link do seu LinkedIn"></input><br>
+
+                <img src ="facebook.png"><label>Facebook: </label>
+                <input id = "Facebook" name = "Facebook" placeholder = "Link do seu Facebook"></input><br>
+
+                <img src ="instagram.png"><label>Instagram: </label>
+                <input id = "Instagram" name = "Instagram" placeholder = "Link do seu Instagram"></input><br>
+                <button>Salvar</button>
+        </form>
+</body>
+</html>
