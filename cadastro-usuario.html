@@ -16,6 +16,7 @@
                 <label for="email">E-mail: </label>
                 <input id = "email" name = "email"><br><br>
 
+                <fieldset></fieldset>
                 <h2>Informações de Usuário</h2>
                 <hr>
                 <label for="nome-de-usuario">Nome de usuário: </label>
@@ -30,14 +31,31 @@
                 <h2>Redes Sociais</h2>
                 <hr>
                 <img src = "linkedin.png"><label>LinkedIn: </label>
-                <input id = "LinkedIn" name = "LinkedIn" placeholder = "Link do seu LinkedIn"></input><br>
+                <input id = "LinkedIn" name = "LinkedIn" placeholder = "Link do seu LinkedIn"></input><br> 
 
+      
                 <img src ="facebook.png"><label>Facebook: </label>
                 <input id = "Facebook" name = "Facebook" placeholder = "Link do seu Facebook"></input><br>
 
+                
                 <img src ="instagram.png"><label>Instagram: </label>
                 <input id = "Instagram" name = "Instagram" placeholder = "Link do seu Instagram"></input><br>
+
+                <fieldset>
+                    <legend><strong>Contrato</strong></legend>
+                    Aceita os termos do contrato?
+                    <br>
+                    <input type = "radio" name="contrato">Sim &nbsp;<input type ="radio" name="contrato">Não <br><br>
+
+                    Aceita este outro contrato?
+                    <select name="contrato2">
+                        <option>Sim</option>
+                        <option>Com certeza</option>
+                    </select>
+                </fieldset>
                 <button>Salvar</button>
+
+
         </form>
 </body>
 </html>
