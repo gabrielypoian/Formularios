@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>Login</title>
 </head>
-<body>
-    <h1>Área Restrita</h1>
-    <hr>
+<body style="color: rgb(0, 0, 0); background: palevioletred; font-family: 'trebuchet MS'">
+    <h1 style= "color: black; border-bottom: 3px solid black; width: 500px; text-align: center; margin-left: auto; margin-right: auto">Área Restrita</h1>
+
         <!-- Container -->
-        <form name="form_login" action="inicial.html" method = "post">
-            <label for="usuário">Usuário:</label> <input name= "usuário" id = "usuário" maxlength = "30" placeholder="Nome de usuário ou E-mail"> <br><br>
-            
-            <label for="senha">Senha:</label> &nbsp; <input name= "senha" id = "senha" type = "password" maxlength = "10" size = "10"><br><br>
-            
-        <button>Entrar</button>
+        <form name="form_login" action="inicial.html" method="post" style="width: 400px; margin-right: auto; margin-left: auto; border: 3px double black; padding: 50px">
+
+        <label for="usuario" title="Label do Usuário" style="font-weight: bold; display: inline-block; width: 100px; padding: 10px;"> Usuário:</label> <input name="usuario"id="usuario" maxlenght="10" placeholder="Nome de Usuário ou E-mail"style="font-weight: bold; display: inline-block; width: 200px; padding: 10px;"> <br><br>
+
+        <label for="senha" style="font-weight: bold; display: inline-block; width: 100px; padding: 10px;">Senha:</label> &nbsp;<input name="senha"id="senha" type="password" maxlenght="10" size="10" style="padding: 10px; font: size 14px"> <br><br>
+
+        <button style="padding: 10px; font-size: 14px; border: 2px solid rgb(255, 8, 173); background: rgb(236, 143, 224); color: rgb(250, 250, 250); font-weight: bold; width: 70px; margin-left:  auto; margin-right: auto">Entrar</button>
+        
         </form>
-    <hr>
+    
 </body>
-</html> 
+</html>
